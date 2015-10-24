@@ -4,11 +4,12 @@
 var profile = require('./profile.js');
 //profile.get('jonatanschumacher');
 
-var users = ["chalkers", "jonatanschumacher"];
-users.forEach(profile.get); 
-
 /* //same as 
 users.forEach(user) {
   profile.get(user);
 } */
+var users = ["chalkers", "jonatanschumacher"];
+users.forEach(profile.get); 
+
+
 
